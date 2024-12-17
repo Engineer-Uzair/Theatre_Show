@@ -1,0 +1,601 @@
+
+*{
+
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: initial;
+    list-style: none;
+    color: white;
+    
+}
+/* home page styling start */
+/* Navbar Start */
+header{
+    background-color: white;
+    width: 100%;
+    height: 110px;
+    padding: 5px 0px ;
+}
+
+.logo{
+    background-size: cover;
+    width: 125px;
+    height: 95px; 
+    margin-top: 5px;
+}
+
+#logo-a{
+    margin: 0px auto 0px 0px;
+    padding: 2px 0px 0px 0px;
+}
+
+#nav{
+    width: 810px;
+    height: 99px;
+}
+
+.search-outer{
+    display: inline-flex;
+    width: 810px;
+    height: 45px;
+    margin: 5px 0px 0px 14px;
+}
+
+.nav-ul > ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 8px 0px 0px 0px;
+    padding: 0px;
+}
+
+.nav-ul > ul > li{
+   font-weight: 450;
+   font-size: 14px;
+   text-transform: uppercase;
+   margin: 10px 18px 10px 0px;
+   color: black;
+}
+
+.nav-ul > ul > li :hover{
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+  
+.nav-ul > ul > li:active{
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+.nav-ul > ul >a{
+    padding: 0px 0px;
+
+}
+  
+a{
+    color: black;
+    text-decoration: initial;
+}
+  
+.header-form{
+    display: inline-flex;
+}
+
+.header-form > input{
+    width: 440px;
+    height: 37px;
+    background-color: rgb(241, 237, 237);
+}
+
+.header-form > button{
+    width: 30px;
+    height: 37px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border-style: none;
+}
+
+.book-ticket img{
+    width: 255px;
+    padding-left: 7px;
+    padding-right: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: black;
+    border-radius: 3px;
+    margin-left: 30px;   
+}
+
+@media only screen and (max-width: 992px){
+    header{
+        display: none;
+    }
+
+    .navbar-brand > img{
+        width: 80px;
+        height: 60px;
+        margin: 0;
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .navbar{
+        display: none;
+    }
+
+    
+}
+
+
+/* Navbar End */
+
+section{
+    background-image: url("./Images/main-site-bg.jpg");
+    background-size: cover;
+}
+
+/* Carousel Start */
+#buttons > button{
+   width: 13px;
+   height: 13px;
+   border-radius: 50%;
+   margin-right: 7px;
+   margin-top: 3px;
+}
+
+.carousel-indicators{
+    background-color: black;
+    width: 100%;
+    height: 39px;
+    margin-left: 0;
+    margin-top: 13px;
+    position: static;
+    
+}
+
+#buttons > button:hover{
+ background-color: #DC3545;
+ color: #DC3545;
+}
+
+/* Carousel End */
+
+/* upcoming updates start */
+.upcoming{
+    width: 100%;
+}
+
+.upcoming-title{
+  width: 100%;
+  height: 55px;  
+  padding: 10px 0px;
+}
+
+.upcoming-title > h3{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+/* upcoming updates end */
+
+/* Cares styling start */
+#cares-title{
+    padding-top: 30px;
+}
+
+#cares-title > h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+/* Cares styling end  */
+
+/* Theatre Experience Start */
+.experience{
+    width: 100%;
+}
+
+.section-title{
+  width: 100%;
+  height: 55px;
+  padding: 10px 0px 0px 0px ;
+  
+}
+
+.section-title > h3{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* Theatre Experience End */
+
+/* footer start */
+.footer-top{
+    background-color: rgb(232, 230, 230);
+    padding-top: 35px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: fit-content;
+}
+
+.footer-logo > img{
+    width: 210px;
+    height: 155px;
+    padding: 0px;
+    margin: 0px; 
+}
+
+.footer-logo{
+    width: 340px;
+    height: 155px;
+}
+
+#quick-links > h4{
+    margin-top: 16px;
+    color: #242423;
+    font-weight: bolder;
+}
+
+#stay-in-touch > h4{
+    color: #242423;
+    font-weight: bolder;
+}
+
+.copyright-outer{
+    background-color: #3e454b;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+}
+
+.copyright{
+    font-size: 14px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px){
+
+    .footer-top{
+        background-color: rgb(232, 230, 230);
+        padding-top: 25px;
+        padding-bottom: 30px;
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .footer-logo > img{
+        display: none;
+    }
+    
+    .footer-logo{
+        width: 0;
+        height: 0;
+    }
+    
+    #quick-links > h4{
+        margin-top: 14px;
+        color: #242423;
+        font-weight: bolder;
+        
+        font-size: 20px;
+    }
+
+    #quick-links{
+        text-align: center;
+       
+    }
+    
+    #quick-links > ul{
+        display: inline-flex;
+       font-weight: 500;
+       padding: 0;
+       margin: 0;
+       margin-left: 25px;
+    }
+
+    #quick-links > ul, li {
+        margin-right: 15px ;
+    }
+
+    #stay-in-touch{
+        text-align: center;
+    }
+
+    #stay-in-touch > h4{
+        color: #242423;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    
+    .copyright-outer{
+        background-color: #3e454b;
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+    }
+    
+    .copyright{
+        font-size: 14px;
+        text-align: center;
+    }
+   
+}
+/* footer end */
+/* home page styling end */
+
+/*tickets and in tickets pages styling start */
+.ticket-select-cinema{
+    width: 100%;
+    text-align: right;
+}
+
+.dropdown > button{
+    width: 150px;
+    height: 32px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.dropdown > button:hover{
+    background-color: #DC3545;
+} 
+
+.ticket-info > h1{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.ticket-icon{
+    width: 50px;
+    height: 40px;
+}
+
+.twod > th{
+    background-color: #191919;
+    color: white;
+    padding: 4px 5px 3px;
+    height: 49px;
+    font-size: 15px;
+    border-bottom: 0px;
+}
+
+.threed > th{
+    background-color: #191919;
+    color: white;
+    padding: 4px 5px 3px;
+    height: 49px;
+    font-size: 15px;
+    border-bottom: 0px;
+}
+
+.trth > th{
+    background-color: #191919;
+    color: white;
+    padding: 15px;
+    height: 49px;
+    font-size: 15px;
+}
+
+.trthtd > td{
+    text-align: right;
+}
+
+.data-not-found{
+    width: 100%;
+    height: 44px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+#ulli > li::marker{
+    color: lightseagreen;
+}
+
+#ulli > li{
+    color: #ADB2B3;
+    list-style: square;
+   
+}
+
+/* tickets and in tickets pages */
+
+/* about page styling Start */
+#about-heading > h1{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 0px 10px 0px;
+    text-transform: uppercase;
+}
+
+.page-content > p{
+    font-size: 17px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+#about-indicators > button{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-right: 7px;
+    margin-top: 3px;
+
+}
+
+#about-indicators{
+     background-color: black;
+     width: 100%;
+     height: 38px;
+     margin: 15px 0px 15px 0px;
+     position: static;    
+}
+ 
+#about-indicators > button:hover{
+  background-color: #DC3545;
+  color: #DC3545;
+}
+/* about page styling end */
+
+/* Private Screening page styling Start */
+#screen-heading > h1{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 0px 0px 0px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+/* Private Screening page styling End */
+
+/* contact page styling start */
+.cmh{
+    height: 56px;
+}
+
+.cmh > .title{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+iframe{
+    width: 100%;
+    height: 300px;
+    border: 0px;
+}
+
+.bh{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cf > input{
+    width: 100%;
+    height: 56px;
+    margin: 3px 0px;
+    padding: 8px;
+    border: 1px solid rgb(134, 134, 134);
+    background: none;
+
+}
+
+#subject{
+    width: 100%;
+    height: 56px;
+    margin: 3px 0px;
+    padding: 8px;
+    border: 1px solid rgb(134, 134, 134);
+    background: none;
+    
+}
+
+#subject > option{
+    color: white;
+    background-color: #191919;
+}
+
+#message{
+    width: 100%;
+    height: 144px;
+    margin: 3px 0px 16px;
+    padding: 8px;
+    border: 1px solid rgb(134, 134, 134);
+    background: none;
+}
+
+#postMsg{
+    width: 160;
+    height: 56px;
+    padding: 10px 50px;
+    margin: 2px 0px ;
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    border: 0px;
+    text-align: right;
+    
+}
+
+.submit{
+    text-align: right;
+}
+/* contact page styling end */
+
+/* booking page styling start */
+.booking-online > h2{
+    color: white;
+    text-align: center;
+    margin: 3px 0px 40px 0px;
+    font-size: 37px;
+    
+}
+
+
+
+.form-control{
+    background: none;
+    height: 37px;
+    margin-bottom: 16px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid rgb(129, 129, 129);
+    border-radius: 0;
+    color: white;
+}
+
+.form-control > option{
+    color: black;
+    font-weight: 500;
+}
+
+.submitBtn{
+    height: 40px;
+    width: 83px;
+    background-color: white;
+    color: black;
+    align-items: right;
+}
+
+.bsb{
+    text-align: right;
+}
+
+    
+/* magazins page styling start */
+.m-heading > h2{  
+    font-weight: bold;
+    font-size: 22px;
+    padding: 30px 0px 10px 0px ;
+}
+
+#m-row{
+   
+    padding: 30px 0px 20px 0px ;
+}
+
+
+/* magazins page styling end */
+
+/* artists page styling start */
+.artist-title > h3{
+    font-size: 22px;
+    padding: 0px 0px 10px 0px ;
+}
+
+.Artist > .container{
+    padding: 30px 0px 50px 0px;
+}
+
+/* artists page styling end */
